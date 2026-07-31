@@ -1,16 +1,58 @@
-## Hi there 👋
+# Hi, I'm Berk Aydemir 👋
 
-<!--
-**BerkAydemirn8n/BerkAydemirn8n** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### AI Automation Engineer | n8n Developer | Workflow Automation Enthusiast
 
-Here are some ideas to get you started:
+I build AI-powered automation workflows that solve real business problems using modern automation tools and APIs.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently, I focus on developing intelligent automation systems with n8n, AI models, REST APIs, and cloud services. My goal is to create scalable workflows that save time, reduce manual work, and improve business processes.
+
+---
+
+## 🚀 Tech Stack
+
+- 🤖 AI Automation
+- ⚙️ n8n
+- 🧠 OpenAI
+- 💎 Google Gemini
+- 🌐 REST APIs
+- 🐳 Docker
+- 📄 Google Sheets
+- 📬 Telegram Bots
+- 💻 JavaScript
+- 🔀 Git & GitHub
+
+---
+
+## 📌 Featured Projects
+
+### 🤖 AI Job Radar
+An AI-powered job monitoring workflow that collects job listings, removes duplicates, analyzes them with AI, stores structured data in Google Sheets, and sends high-quality opportunities directly to Telegram.
+
+### ✈️ AI Travel Planner *(Coming Soon)*
+An intelligent travel planning assistant that creates personalized travel itineraries using AI.
+
+### 💬 AI WhatsApp Customer Support *(Coming Soon)*
+A smart customer support workflow powered by AI Agents and WhatsApp automation.
+
+---
+
+## 🌱 Currently Learning
+
+- AI Agents
+- Advanced n8n
+- RAG (Retrieval-Augmented Generation)
+- MCP (Model Context Protocol)
+- Business Process Automation
+
+---
+
+## 🎯 Goal
+
+Building production-ready AI automation systems that help businesses automate repetitive tasks and improve operational efficiency.
+
+---
+
+## 📫 Connect with Me
+
+- GitHub: https://github.com/BerkAydemir8n
+- LinkedIn: Coming Soon
