@@ -28,6 +28,12 @@ Currently, I focus on developing intelligent automation systems with n8n, AI mod
 ### 🤖 AI Job Radar
 An AI-powered job monitoring workflow that collects job listings, removes duplicates, analyzes them with AI, stores structured data in Google Sheets, and sends high-quality opportunities directly to Telegram.
 
+### 🐾 Vet Telegram AI Receptionist
+An AI-powered Telegram receptionist that handles veterinary clinic inquiries, manages appointments, provides pricing information, and connects customers with staff when needed.
+
+### ⚽ AI Sports Digest
+An AI-powered workflow that collects sports news, removes duplicates, summarizes and scores stories, and delivers a daily personalized newsletter by email.
+
 ### ✈️ AI Travel Planner *(Coming Soon)*
 An intelligent travel planning assistant that creates personalized travel itineraries using AI.
 
