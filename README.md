@@ -34,6 +34,9 @@ An AI-powered Telegram receptionist that handles veterinary clinic inquiries, ma
 ### ⚽ AI Sports Digest
 An AI-powered workflow that collects sports news, removes duplicates, summarizes and scores stories, and delivers a daily personalized newsletter by email.
 
+📸 **Receipt Radar**
+An AI-powered OCR workflow that reads receipt and invoice photos, extracts structured data (amount, date, merchant, category), and saves them to Notion — built almost entirely with no-code nodes.
+
 ### ✈️ AI Travel Planner *(Coming Soon)*
 An intelligent travel planning assistant that creates personalized travel itineraries using AI.
 
