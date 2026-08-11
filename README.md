@@ -37,6 +37,9 @@ An AI-powered workflow that collects sports news, removes duplicates, summarizes
 ### 📸 Receipt Radar
 An AI-powered OCR workflow that reads receipt and invoice photos, extracts structured data (amount, date, merchant, category), and saves them to Notion — built almost entirely with no-code nodes.
 
+### 📦 Bulk Receipt Processor
+A scaled-up version of Receipt Radar that watches a shared Google Drive folder, deduplicates receipts against a PostgreSQL database, retries on failure, and sends daily summary reports to Slack.
+
 ### ✈️ AI Travel Planner *(Coming Soon)*
 An intelligent travel planning assistant that creates personalized travel itineraries using AI.
 
