@@ -1,6 +1,6 @@
 # Hi, I'm Berk Aydemir 👋
 
-### AI Automation Engineer | n8n Developer | Workflow Automation Enthusiast
+### AI Automation Engineer | n8n Developer | AI Agents | API Integrations
 
 I build AI-powered automation workflows that solve real business problems using modern automation tools and APIs.
 
