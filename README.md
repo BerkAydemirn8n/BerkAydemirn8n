@@ -40,7 +40,7 @@ An AI-powered OCR workflow that reads receipt and invoice photos, extracts struc
 ### 📦 Bulk Receipt Processor
 A scaled-up version of Receipt Radar that watches a shared Google Drive folder, deduplicates receipts against a PostgreSQL database, retries on failure, and sends daily summary reports to Slack.
 
-### ✈️ AI Travel Planner *(Coming Soon)*
+### ✈️ AI Travel Planner 
 An intelligent travel planning assistant that creates personalized travel itineraries using AI.
 
 ### 💬 AI WhatsApp Customer Support *(Coming Soon)*
