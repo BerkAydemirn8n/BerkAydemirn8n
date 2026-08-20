@@ -9,14 +9,18 @@ Currently, I focus on developing intelligent automation systems with n8n, AI mod
 ---
 
 ## 🚀 Tech Stack
-
 - 🤖 AI Automation
 - ⚙️ n8n
 - 🧠 OpenAI
 - 💎 Google Gemini
 - 🌐 REST APIs
 - 🐳 Docker
+- 📓 Notion API
+- 💬 Slack API
+- 📧 Gmail API
+- 🐘 PostgreSQL
 - 📄 Google Sheets
+- 📁 Google Drive API
 - 📬 Telegram Bots
 - 💻 JavaScript
 - 🔀 Git & GitHub
