@@ -43,6 +43,9 @@ A scaled-up version of Receipt Radar that watches a shared Google Drive folder, 
 ### ✈️ AI Travel Planner 
 An intelligent travel planning assistant that creates personalized travel itineraries using AI.
 
+### 🎫 IT Helpdesk / Ticket Triage
+An AI-powered support automation that classifies incoming Gmail tickets by category and priority, logs them to Notion, auto-replies to the sender, escalates critical issues to Slack, and emails a weekly summary report.
+
 ### 💬 AI WhatsApp Customer Support *(Coming Soon)*
 A smart customer support workflow powered by AI Agents and WhatsApp automation.
 
