@@ -50,6 +50,9 @@ An intelligent travel planning assistant that creates personalized travel itiner
 ### 🎫 IT Helpdesk / Ticket Triage
 An AI-powered support automation that classifies incoming Gmail tickets by category and priority, logs them to Notion, auto-replies to the sender, escalates critical issues to Slack, and emails a weekly summary report.
 
+### 📧 AI Email/Inbox Assistant
+An AI-powered email triage system that analyzes incoming Gmail messages with an AI Agent, classifies them by urgency and intent, and routes them automatically — drafting replies for human review, scheduling meetings, sending urgent alerts, archiving spam, or labeling for later. Includes deterministic date-resolution logic to reliably handle relative date references (e.g. "this Thursday") without relying on LLM math.
+
 ### 💬 AI WhatsApp Customer Support *(Coming Soon)*
 A smart customer support workflow powered by AI Agents and WhatsApp automation.
 
