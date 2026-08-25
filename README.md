@@ -79,5 +79,5 @@ Building production-ready AI automation systems that help businesses automate re
 
 ## 📫 Connect with Me
 
-- GitHub: https://github.com/BerkAydemirn8n
-- LinkedIn: Coming Soon
+- GitHub:   https://github.com/BerkAydemirn8n
+- LinkedIn: https://www.linkedin.com/in/berkkaydemir
