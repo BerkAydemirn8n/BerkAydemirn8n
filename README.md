@@ -9,63 +9,58 @@ Currently, I focus on developing intelligent automation systems with n8n, AI mod
 ---
 
 ## 🚀 Tech Stack
-- 🤖 AI Automation
-- ⚙️ n8n
-- 🧠 OpenAI
-- 💎 Google Gemini
-- 🌐 REST APIs
-- 🐳 Docker
-- 📓 Notion API
-- 💬 Slack API
-- 📧 Gmail API
-- 🐘 PostgreSQL
-- 📄 Google Sheets
-- 📁 Google Drive API
-- 📬 Telegram Bots
-- 💻 JavaScript
-- 🔀 Git & GitHub
+
+**Automation & AI**
+🤖 n8n · 🧠 OpenAI · 💎 Google Gemini · 🔎 RAG (Qdrant) · 🌐 REST APIs
+
+**Backend & Data**
+🐘 PostgreSQL · 📄 Google Sheets · 📓 Notion API · 📁 Google Drive API
+
+**Integrations & Messaging**
+📧 Gmail API · 💬 Slack API · 📬 Telegram Bots
+
+**Dev Tools**
+🐳 Docker · 💻 JavaScript · 🔀 Git & GitHub
 
 ---
 
 ## 📌 Featured Projects
 
-### 🤖 AI Job Radar
-An AI-powered job monitoring workflow that collects job listings, removes duplicates, analyzes them with AI, stores structured data in Google Sheets, and sends high-quality opportunities directly to Telegram.
+### [🤖 AI Job Radar (SmartJob Radar)](https://github.com/BerkAydemirn8n/SmartJob-Radar)
+An AI-powered job monitoring workflow that collects job listings, removes duplicates, analyzes them with AI, stores structured data in Google Sheets, and sends high-quality opportunities directly to Telegram. Deduplicates against previously seen listings before scoring, and only alerts on results above a quality threshold — so the feed stays high-signal instead of forwarding every match.
 
-### 🐾 Vet Telegram AI Receptionist
-An AI-powered Telegram receptionist that handles veterinary clinic inquiries, manages appointments, provides pricing information, and connects customers with staff when needed.
+### [🐾 Vet Telegram AI Receptionist](https://github.com/BerkAydemirn8n/vet-telegram-ai-receptionist)
+An AI-powered Telegram receptionist that handles veterinary clinic inquiries, manages appointments, provides pricing information, and connects customers with staff when needed. Uses Qdrant for retrieval-augmented answers on clinic knowledge, and enforces an "always fetch a fresh calendar event ID within the same turn" rule to eliminate a class of stale-reference bugs in reschedule/cancel flows.
 
-### ⚽ AI Sports Digest
-An AI-powered workflow that collects sports news, removes duplicates, summarizes and scores stories, and delivers a daily personalized newsletter by email.
+### [⚽ AI Sports Digest](https://github.com/BerkAydemirn8n/ai-sports-digest)
+An AI-powered workflow that collects sports news, removes duplicates, summarizes and scores stories, and delivers a daily personalized newsletter by email. Deduplicates near-identical headlines using Jaccard word-similarity rather than exact-match, so reworded versions of the same story don't slip through twice.
 
-### 📸 Receipt Radar
-An AI-powered OCR workflow that reads receipt and invoice photos, extracts structured data (amount, date, merchant, category), and saves them to Notion — built almost entirely with no-code nodes.
+### [📸 Receipt Radar](https://github.com/BerkAydemirn8n/receipt-radar)
+An AI-powered OCR workflow that reads receipt and invoice photos, extracts structured data (amount, date, merchant, category), and saves them to Notion — built almost entirely with no-code nodes. Normalizes all extracted dates to ISO format before storage to avoid day/month ambiguity across locales.
 
-### 📦 Bulk Receipt Processor
+### [📦 Bulk Receipt Processor](https://github.com/BerkAydemirn8n/bulk-receipt-processor)
 A scaled-up version of Receipt Radar that watches a shared Google Drive folder, deduplicates receipts against a PostgreSQL database, retries on failure, and sends daily summary reports to Slack.
 
-### ✈️ AI Travel Planner 
-An intelligent travel planning assistant that creates personalized travel itineraries using AI.
+### [✈️ AI Travel Planner](https://github.com/BerkAydemirn8n/ai-travel-planner)
+An intelligent travel planning assistant that gathers trip preferences conversationally over Telegram, pulls in real venue and weather data (Foursquare, Open-Meteo), and generates a day-by-day itinerary delivered as a PDF. Includes a dedicated error-alerting branch that posts to Slack on real workflow failures, verified against an actual PDF-conversion outage.
 
-### 🎫 IT Helpdesk / Ticket Triage
-An AI-powered support automation that classifies incoming Gmail tickets by category and priority, logs them to Notion, auto-replies to the sender, escalates critical issues to Slack, and emails a weekly summary report.
+### [🎫 IT Helpdesk / Ticket Triage](https://github.com/BerkAydemirn8n/it-helpdesk-ticket-triage)
+An AI-powered support automation that classifies incoming Gmail tickets by category and priority, logs them to Notion, auto-replies to the sender, and escalates critical issues to Slack. A second, separate scheduled workflow queries the last 7 days of tickets and emails a categorized weekly summary report.
 
-### 📧 AI Email/Inbox Assistant
+### [📧 AI Email/Inbox Assistant](https://github.com/BerkAydemirn8n/ai-email-inbox-assistant)
 An AI-powered email triage system that analyzes incoming Gmail messages with an AI Agent, classifies them by urgency and intent, and routes them automatically — drafting replies for human review, scheduling meetings, sending urgent alerts, archiving spam, or labeling for later. Includes deterministic date-resolution logic to reliably handle relative date references (e.g. "this Thursday") without relying on LLM math.
 
-### 🛒 PriceWise — Smart Shopping List & Price Comparator
+### [🛒 PriceWise — Smart Shopping List & Price Comparator](https://github.com/BerkAydemirn8n/PriceWise)
 An AI-powered shopping assistant that lets users manage a grocery list entirely through natural-language Telegram messages, normalizes item names into standard purchasable units, and compares live prices across retailers via SerpAPI (Google Shopping) to surface the cheapest option for each item. Includes multi-user list isolation via chat ID and deterministic empty-state/invalid-input guards on every branch, so the bot never fails silently — even on gibberish input or an empty list, it always returns a clear response instead of no response at all.
 
 ### 💬 AI WhatsApp Customer Support *(Coming Soon)*
-A smart customer support workflow powered by AI Agents and WhatsApp automation.
+A smart customer support workflow powered by AI Agents and WhatsApp automation, using Qdrant for RAG over business knowledge and an atomic Redis lock to prevent double-bookings under concurrent requests.
 
 ---
 
 ## 🌱 Currently Learning
 
-- AI Agents
-- Advanced n8n
-- RAG (Retrieval-Augmented Generation)
+- Advanced n8n (sub-workflows, error-handling patterns)
 - MCP (Model Context Protocol)
 - Business Process Automation
 
@@ -74,6 +69,12 @@ A smart customer support workflow powered by AI Agents and WhatsApp automation.
 ## 🎯 Goal
 
 Building production-ready AI automation systems that help businesses automate repetitive tasks and improve operational efficiency.
+
+---
+
+## 📊 GitHub Stats
+
+![Berk's GitHub stats](https://github-readme-stats.vercel.app/api?username=BerkAydemirn8n&show_icons=true&theme=default)
 
 ---
 
