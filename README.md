@@ -68,12 +68,13 @@ A smart customer support workflow powered by AI Agents and WhatsApp automation, 
 
 ## 🎯 Goal
 
-<img src="https://github-readme-stats.vercel.app/api?username=BerkAydemirn8n&show_icons=true&theme=dark" alt="Berk's GitHub stats" />
+Building production-ready AI automation systems that help businesses automate repetitive tasks and improve operational efficiency.
+
 ---
 
 ## 📊 GitHub Stats
 
-![Berk's GitHub stats](https://github-readme-stats.vercel.app/api?username=BerkAydemirn8n&show_icons=true&theme=default)
+[![Berk's GitHub streak](https://ninja-build-stats.vercel.app/api?user=BerkAydemirn8n&theme=dark)](https://github.com/BerkAydemirn8n)
 
 ---
 
