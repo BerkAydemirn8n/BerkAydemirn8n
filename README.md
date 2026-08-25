@@ -53,6 +53,9 @@ An AI-powered support automation that classifies incoming Gmail tickets by categ
 ### 📧 AI Email/Inbox Assistant
 An AI-powered email triage system that analyzes incoming Gmail messages with an AI Agent, classifies them by urgency and intent, and routes them automatically — drafting replies for human review, scheduling meetings, sending urgent alerts, archiving spam, or labeling for later. Includes deterministic date-resolution logic to reliably handle relative date references (e.g. "this Thursday") without relying on LLM math.
 
+### 🛒 PriceWise — Smart Shopping List & Price Comparator
+An AI-powered shopping assistant that lets users manage a grocery list entirely through natural-language Telegram messages, normalizes item names into standard purchasable units, and compares live prices across retailers via SerpAPI (Google Shopping) to surface the cheapest option for each item. Includes multi-user list isolation via chat ID and deterministic empty-state/invalid-input guards on every branch, so the bot never fails silently — even on gibberish input or an empty list, it always returns a clear response instead of no response at all.
+
 ### 💬 AI WhatsApp Customer Support *(Coming Soon)*
 A smart customer support workflow powered by AI Agents and WhatsApp automation.
 
