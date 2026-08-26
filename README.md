@@ -74,7 +74,9 @@ Building production-ready AI automation systems that help businesses automate re
 
 ## 📊 GitHub Stats
 
-[![Berk's GitHub streak](https://ninja-build-stats.vercel.app/api?user=BerkAydemirn8n&theme=dark)](https://github.com/BerkAydemirn8n)
+![Berk's GitHub stats](https://github-readme-stats.vercel.app/api?username=BerkAydemirn8n&show_icons=true&theme=default&cache_seconds=1800)
+
+![Berk's GitHub streak](https://streak-stats.demolab.com/?user=BerkAydemirn8n&theme=default)
 
 ---
 
