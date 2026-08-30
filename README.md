@@ -53,6 +53,9 @@ An AI-powered email triage system that analyzes incoming Gmail messages with an 
 ### [🛒 PriceWise — Smart Shopping List & Price Comparator](https://github.com/BerkAydemirn8n/PriceWise)
 An AI-powered shopping assistant that lets users manage a grocery list entirely through natural-language Telegram messages, normalizes item names into standard purchasable units, and compares live prices across retailers via SerpAPI (Google Shopping) to surface the cheapest option for each item. Includes multi-user list isolation via chat ID and deterministic empty-state/invalid-input guards on every branch, so the bot never fails silently — even on gibberish input or an empty list, it always returns a clear response instead of no response at all.
 
+### [🏠 Smart Home Assistant](https://github.com/BerkAydemirn8n/Smart-Home-Assistant)
+An AI-powered smart home controller that manages real Home Assistant devices through natural language over Telegram, by text or voice, reading live device states before acting and calling the right service with the right parameters — including ones it was never explicitly told about, like color control. A separate scheduled branch runs independently on its own, checking the temperature and turning on the AC automatically when it crosses a threshold, proactively notifying the user either way.
+
 ### 💬 AI WhatsApp Customer Support *(Coming Soon)*
 A smart customer support workflow powered by AI Agents and WhatsApp automation, using Qdrant for RAG over business knowledge and an atomic Redis lock to prevent double-bookings under concurrent requests.
 
