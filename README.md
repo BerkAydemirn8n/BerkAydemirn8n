@@ -56,6 +56,9 @@ An AI-powered shopping assistant that lets users manage a grocery list entirely 
 ### [🏠 Smart Home Assistant](https://github.com/BerkAydemirn8n/Smart-Home-Assistant)
 An AI-powered smart home controller that manages real Home Assistant devices through natural language over Telegram, by text or voice, reading live device states before acting and calling the right service with the right parameters — including ones it was never explicitly told about, like color control. A separate scheduled branch runs independently on its own, checking the temperature and turning on the AC automatically when it crosses a threshold, proactively notifying the user either way.
 
+### [⚽ U21 Wonderkid & Performance Radar](https://github.com/BerkAydemirn8n/AI-Football-Scout)
+An AI-powered scouting automation that scans five leagues weekly for standout U21 talents, using real match statistics and ratings from a football data API. Flagged players get a full scouting report — grounded in a small RAG knowledge base of professional report examples, not a generic AI guess — delivered as a photo scouting card (PDF) over Telegram, a tracked entry in Notion, and a weekly summary email, with duplicate protection to prevent the same player/match being logged twice.
+
 ### 💬 AI WhatsApp Customer Support *(Coming Soon)*
 A smart customer support workflow powered by AI Agents and WhatsApp automation, using Qdrant for RAG over business knowledge and an atomic Redis lock to prevent double-bookings under concurrent requests.
 
