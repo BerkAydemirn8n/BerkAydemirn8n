@@ -11,10 +11,10 @@ Currently, I focus on developing intelligent automation systems with n8n, AI mod
 ## 🚀 Tech Stack
 
 **Automation & AI**
-🤖 n8n · 🧠 OpenAI · 💎 Google Gemini · 🔎 RAG (Qdrant) · 🌐 REST APIs
+🤖 n8n · 🧠 OpenAI · 🎙️ OpenAI Whisper · 💎 Google Gemini · 🔎 RAG (Qdrant) · 🔌 MCP · 🌐 REST APIs
 
 **Backend & Data**
-🐘 PostgreSQL · 📄 Google Sheets · 📓 Notion API · 📁 Google Drive API · 📑 Gotenberg · 🛒 SerpAPI / Google Shopping API
+🐘 PostgreSQL · 🧠 Redis · 📄 Google Sheets · 📓 Notion API · 📁 Google Drive API · 📑 Gotenberg · 🛒 SerpAPI / Google Shopping API · ⚽ RapidAPI
 
 **Integrations & Messaging**
 📧 Gmail API · 💬 Slack API · 📬 Telegram Bots · 🏠 Home Assistant API
