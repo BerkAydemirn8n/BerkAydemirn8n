@@ -59,6 +59,9 @@ An AI-powered smart home controller that manages real Home Assistant devices thr
 ### [⚽ U21 Wonderkid & Performance Radar](https://github.com/BerkAydemirn8n/AI-Football-Scout)
 An AI-powered scouting automation that scans five leagues weekly for standout U21 talents, using real match statistics and ratings from a football data API. Flagged players get a full scouting report — grounded in a small RAG knowledge base of professional report examples, not a generic AI guess — delivered as a photo scouting card (PDF) over Telegram, a tracked entry in Notion, and a weekly summary email, with duplicate protection to prevent the same player/match being logged twice.
 
+### [💳 SaaS Subscription & Billing Guardian](https://github.com/BerkAydemirn8n/stripe-subscription-automation)
+A Stripe webhook-driven billing automation that cryptographically verifies every incoming event before touching it, then routes it by type to keep a Supabase subscription record in sync — upserting customer status, scheduling payment retries, and notifying the right party for every stage of the billing lifecycle. Customers get email notifications for payment confirmations, failures, and plan changes; the team gets a Slack alert the moment a subscription cancels, with a separate centralized error-handling workflow catching and reporting any failure across the whole pipeline.
+
 ---
 
 ## 🌱 Currently Learning
