@@ -15,7 +15,7 @@ Currently, I focus on developing intelligent automation systems with n8n, AI mod
 
 **Backend & Data**
 🐘 PostgreSQL · 🐘 Supabase · 🧠 Redis · 📄 Google Sheets · 📓 Notion API · 📁 Google Drive API · 📑 Gotenberg 
-  · 🛒 SerpAPI / Google Shopping API · ⚽ RapidAPI
+     · 🛒 SerpAPI / Google Shopping API · ⚽ RapidAPI
 
 **Integrations & Messaging**
 📧 Gmail API · 💬 Slack API · 📬 Telegram Bots · 🏠 Home Assistant API · 💳 Stripe API
